@@ -5,7 +5,7 @@ ECE 535 Deep Learning in Mobile Tracking Systems
 ## Motivation
 Our motivation for this project comes from our excitement about the world of machine learning, which is a completely new field for both of us. This new field opnes up significant opportunities for learning and growth.
 
-After studying the project and the research paper attached to it, we have gained a clear understanding of the path this research should take. The concept of Tartan VO and its wide-ranging applications has captured our interest and curiosity. We are also eager to explore this field because it has very strong potential to contribute to various domains. We believe that by embarking on this journey, we will not only enjoy the process but also expand our knowledge and skills in machine learning, while exploring the possibilities of Tartan VO and its applications."
+After studying the project and the research paper attached to it, we have gained a clear understanding of the path this research should take. The concept of Tartan VO and its wide-ranging applications has captured our interest and curiosity. We are also eager to explore this field because it has very strong potential to contribute to various domains. We believe that by embarking on this journey, we will not only enjoy the process but also expand our knowledge and skills in machine learning, while exploring the possibilities of Tartan VO and its applications.
 
 ## Design Goals
 1. Accurate Tracking
