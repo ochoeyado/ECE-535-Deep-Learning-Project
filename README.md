@@ -16,7 +16,7 @@ After studying the project and the research paper attached to it, we have gained
 
 ## Deliverables
 1. Implement and understand an end-to-end learning approach for tracking – TartanVO
-2. Benchmark TartanVO on two datasets to evaluate its performance (data & code provided) • 
+2. Benchmark TartanVO on two datasets to evaluate its performance (data & code provided) 
 3. Analyze performance difference across datasets and reason about it
 
 ## System Blocks
