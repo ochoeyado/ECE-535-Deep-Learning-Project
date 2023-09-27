@@ -8,10 +8,10 @@ Our motivation for this project comes from our excitement about the world of mac
 After studying the project and the research paper attached to it, we have gained a clear understanding of the path this research should take. The concept of Tartan VO and its wide-ranging applications has captured our interest and curiosity. We are also eager to explore this field because it has very strong potential to contribute to various domains. We believe that by embarking on this journey, we will not only enjoy the process but also expand our knowledge and skills in machine learning, while exploring the possibilities of Tartan VO and its applications."
 
 ## Design Goals
-1.Accurate Tracking
-2.Efficient Processing
-3.Robust (can handle noise)
-4.Security and Privacy
+1. Accurate Tracking
+2. Efficient Processing
+3. Robust (can handle noise)
+4. Security and Privacy
 
 
 ## Deliverables
