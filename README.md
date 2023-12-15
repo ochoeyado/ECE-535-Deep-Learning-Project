@@ -48,7 +48,7 @@ Python, Laptop with CUDA-enabled GPU
 - Month 2: Model Development and Optimization
 - Month 3: Validation, Integration, and Deployment
 
-##Challenges
+## Challenges
 While working on the Tartan we ran into a few problems that required unique solutions. 
 
 One of the major issues we ran into was the outdated code as most of Tartan seemed to be developed in 2017. TartanVO was written in Python 2, a legacy version of Python. This posed an issue as most libraries no longer support Python 2 and have moved on to the much more common Python 3 which is installed on our machines. This error was realized when attempting to run the provided scripts resulting in numerous syntax errors. Although offering a Python 3 version these issues still seemed to persist especially since there were many issues with the libraries. Since the writing of the provided files, many of the included libraries have since been updated leaving many of the functions outdated and needing updating. This primarily rose with CuPy, although still being updated it seems that the community is pushing towards Nvidia Container Toolkit to utilize the Cuda capabilities of certain General Processing Units.
