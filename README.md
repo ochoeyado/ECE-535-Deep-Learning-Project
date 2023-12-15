@@ -71,10 +71,9 @@ Upon solving these issues were successfully able to run Tartan against the KiTTi
 ## ErUco Results
 ![EuRocATE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/0b3f3710-a870-4fc8-ac45-1ff928d66954)
 
-![EuRocATE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/0013f3cb-7df6-4ef5-a117-6d20ca989518)
-
 ![EurocRotE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/bc8c3107-93a2-433a-8fc2-1bf740baaa76)
 
+![ErocTransEr](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/e8486932-ff47-43c2-bf08-8bd01c945586)
 
 
 ## References
