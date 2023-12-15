@@ -57,6 +57,9 @@ Before receiving the archived files, we attempted to run Tartan on an Ubuntu mac
 
 Once we received these archived files there were still some changes that needed to be made. For instance, in the code, there was a command as_dcm which has since been updated to as_matrix. There were a few other minor issues such as this, but the code was mostly up to date. We did however run into an error with shape() which required us to implement error messages to figure out where the error was occurring. Utilizing these messages we figured the error occurred based on the sizes of our text files. Since we have to run our datasets against the ground truth, the datasets have to have the same dimensions. Luckily, all these files had the same number of columns, so we just needed to edit the number of rows to the same ground truth (734 lines).
 
+## Results
+
+
 ## References
 Github Link - [https://github.com/castacks/tartanvo](url)
 TartanVO: A Generalizable Learning-based VO, [https://arxiv.org/pdf/2011.00359.pdf](url)
