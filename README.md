@@ -60,6 +60,23 @@ Once we received these archived files there were still some changes that needed 
 ## Results
 Upon solving these issues were successfully able to run Tartan against the KiTTi and EuRoc tests. When running these tests were presented with a variety of outputs: average trajectory error(AVE), relative pose error(RPE), matrix output, as well as scale. We decided to graph a few things, we felt the best representation of the model was to graph the ATE against the trial number for both KiTTi and EuRoc. We then also graphed both the rotation and translation errors from the RPE results of each trial on both datasets. We believe that graphing these values was the best representation of the TartanVO model.
 
+## KiTTi results
+![KiTTiAPE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/eb19655a-6aa9-4315-a910-657b4b2bd23e)
+
+![KiTTiRotE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/3ec34e17-5bf0-4b33-bc0d-de590f3abd58)
+
+![KiTTiTransEr](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/1a1e548d-df80-48b4-afa8-617dd04f3b9a)
+
+
+## ErUco Results
+![EuRocATE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/0b3f3710-a870-4fc8-ac45-1ff928d66954)
+
+![EuRocATE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/0013f3cb-7df6-4ef5-a117-6d20ca989518)
+
+![EurocRotE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/bc8c3107-93a2-433a-8fc2-1bf740baaa76)
+
+
+
 ## References
 Github Link - [https://github.com/castacks/tartanvo](url)
 TartanVO: A Generalizable Learning-based VO, [https://arxiv.org/pdf/2011.00359.pdf](url)
