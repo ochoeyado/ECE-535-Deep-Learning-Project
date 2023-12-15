@@ -37,10 +37,10 @@ Python, Laptop with CUDA-enabled GPU
 
 ## Team Members and Responsibilities
 - **Colin Leydon:** 
-  - Software Setup,Research,Data Ananlysis,Writing
+  - Software Setup, Research, Data Ananlysis, Writing
 
 - **Ocho Eyado:** 
-  - Project Planning,Harware Setup,Data Analysis,Writing
+  - Project Planning, Hardware Setup, Data Analysis, Writing
 
 
 ## Project Timeline
@@ -54,6 +54,8 @@ While working on the Tartan we ran into a few problems that required unique solu
 One of the major issues we ran into was the outdated code as most of Tartan seemed to be developed in 2017. TartanVO was written in Python 2, a legacy version of Python. This posed an issue as most libraries no longer support Python 2 and have moved on to the much more common Python 3 which is installed on our machines. This error was realized when attempting to run the provided scripts resulting in numerous syntax errors. Although offering a Python 3 version these issues still seemed to persist especially since there were many issues with the libraries. Since the writing of the provided files, many of the included libraries have since been updated leaving many of the functions outdated and needing updating. This primarily rose with CuPy, although still being updated it seems that the community is pushing towards Nvidia Container Toolkit to utilize the Cuda capabilities of certain General Processing Units.
 
 Before receiving the archived files, we attempted to run Tartan on an Ubuntu machine. Fortunately, using a series of pip and sudo apt install commands we were capable of installing the necessary dependencies and libraries. The problems arose when we were trying to get the KiTTi and EuRoc tests. As the GitHub called for, we used the wget command which resulted in the error: "Externally-Managed-Environment". We attempted multiple workarounds such as pipx but this command is meant for downloading commands for your script rather than dependencies. There was also an option to modify the command and force an install, but our research showed that unless you know exactly what this file is it could be catastrophic for your operating system and require a complete wipe
+
+Once we received these archived files there were still some changes that needed to be made. For instance, in the code, there was a command as_dcm which has since been updated to as_matrix. There were a few other minor issues such as this, but the code was mostly up to date. We did however run into an error with shape() which required us to implement error messages to figure out where the error was occurring. Utilizing these messages we figured the error occurred based on the sizes of our text files. Since we have to run our datasets against the ground truth, the datasets have to have the same dimensions. Luckily, all these files had the same number of columns, so we just needed to edit the number of rows to the same ground truth (734 lines).
 
 ## References
 Github Link - [https://github.com/castacks/tartanvo](url)
