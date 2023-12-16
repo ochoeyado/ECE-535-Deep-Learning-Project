@@ -60,6 +60,8 @@ Once we received these archived files there were still some changes that needed 
 ## Results
 Upon solving these issues were successfully able to run Tartan against the KiTTi and EuRoc tests. When running these tests were presented with a variety of outputs: average trajectory error(AVE), relative pose error(RPE), matrix output, as well as scale. We decided to graph a few things, we felt the best representation of the model was to graph the ATE against the trial number for both KiTTi and EuRoc. We then also graphed both the rotation and translation errors from the RPE results of each trial on both datasets. We believe that graphing these values was the best representation of the TartanVO model.
 
+For full results, you can review our paper.
+
 ## KiTTi results
 ![KiTTiAPE](https://github.com/ochoeyado/ECE-535-Deep-Learning-Project/assets/146108540/eb19655a-6aa9-4315-a910-657b4b2bd23e)
 
